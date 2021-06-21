@@ -1,0 +1,36 @@
+:root {
+  --black: #0D114F;
+  --white: #FAFAFA;
+  --light-blue: #E0ECFF;
+  --blue: #3485FF;
+  --red: #E83F5B;
+  --background: #F6FAFF
+  --overlay: #040911
+  --icons-detals: #A5B0C1
+
+  --grey-dark: #4D5E77;
+  --grey-medium: #A1B2CD;
+  --grey-light: #E5EAF1
+}
+
+html {
+  font-size: 62.5%; /* 10px ou 28px = 2.8rem trick jack =D*/ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  background: var(--background);
+}
+
+body, input, button, textarea {
+  font-size: clamp(14px, 1.6rem, 2vw); /* min, padrão, maximo */
+  font-family: ;
+}
