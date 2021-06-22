@@ -1,5 +1,9 @@
-:root {
-  
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
 }
 
 html {
@@ -9,21 +13,12 @@ html {
   --light-blue: #E0ECFF;
   --blue: #3485FF;
   --red: #E83F5B;
-  --background: #F6FAFF
-  --overlay: #040911
-  --icons-detals: #A5B0C1
-
+  --background: #F6FAFF;
+  --overlay: #040911;
+  --icons-details: #A5B0C1;
   --grey-dark: #4D5E77;
   --grey-medium: #A1B2CD;
   --grey-light: #E5EAF1
-}
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  border: none;
-  text-decoration: none;
 }
 
 body {
