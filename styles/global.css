@@ -1,4 +1,9 @@
 :root {
+  
+}
+
+html {
+  font-size: 62.5%; /* 10px ou 28px = 2.8rem trick jack =D*/ 
   --black: #0D114F;
   --white: #FAFAFA;
   --light-blue: #E0ECFF;
@@ -13,10 +18,6 @@
   --grey-light: #E5EAF1
 }
 
-html {
-  font-size: 62.5%; /* 10px ou 28px = 2.8rem trick jack =D*/ 
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -26,6 +27,7 @@ html {
 }
 
 body {
+  display: flex;
   height: 100vh;
   background: var(--background);
 }
