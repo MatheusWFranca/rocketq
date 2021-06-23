@@ -18,7 +18,8 @@ html {
   --icons-details: #A5B0C1;
   --grey-dark: #4D5E77;
   --grey-medium: #A1B2CD;
-  --grey-light: #E5EAF1
+  --grey-light: #E5EAF1;
+  --grey-read: #eaecf2;
 }
 
 body {
@@ -79,7 +80,7 @@ button, .button {
 
   cursor: pointer;
 
-  transition: filter .3s;
+  transition: filter .4s;
 }
 
 button:hover, .button:hover {
@@ -97,3 +98,13 @@ button.outlined, .button.outlined {
   border: .2rem solid var(--blue);
 }
 
+
+button.red, .button.red {
+  background: var(--red);
+  color: var(--white);
+}
+
+button.grey, .button.grey {
+  background: var(--grey-light);
+  color: var(--grey-dark);
+}
