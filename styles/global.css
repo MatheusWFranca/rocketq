@@ -99,7 +99,7 @@ button.outlined, .button.outlined {
 }
 
 
-button.red, .button.red {
+button.red, .butto n.red {
   background: var(--red);
   color: var(--white);
 }
