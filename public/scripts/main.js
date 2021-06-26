@@ -33,5 +33,6 @@ function handleClick(event, check = true) {
   modalDescription.innerHTML = `Tem certeza que deseja ${text.toLocaleLowerCase()} essa pergunta?`
   modalButton.innerHTML = `Sim, ${text.toLocaleLowerCase()}`;
   check ? modalButton.classList.remove('red') : modalButton.classList.add('red');
+  
   modal.open();
 }
