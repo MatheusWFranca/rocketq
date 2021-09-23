@@ -1,5 +1,5 @@
 <h1 align="center">
-  RocketQ
+  RocketQ 🤘
 </h1>
 
 <p align="center">
@@ -33,7 +33,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-RocketQ é uma aplicação de perguntas, onde é possível cadastrar, entrar e excluir salas, assim conseguindo fazer perguntas direcionadas a alguma peessoa.
+RocketQ é uma aplicação de perguntas, onde é possível cadastrar, entrar e excluir salas. Assim conseguindo fazer perguntas direcionadas a alguma peessoa.
 
 -----
+
+Projeto desenvolvido pela Rocketseat.
+
 Feito com ♥
